@@ -1,0 +1,32 @@
+﻿Build started 5/31/2016 15:56:42.
+     1>Project "C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Shadow_mapping(soft_Shadow)\Shadow_mapping(soft_Shadow).vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Base.vcxproj, Shadow_mapping.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Shadow_mapping(soft_Shadow)\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(206): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(208): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(249): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(250): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(251): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(256): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(257): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(258): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(262): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(263): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(264): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(268): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(269): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(270): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\luna\programming projects\igmtutorial\staging\shadow mapping soft\shadow_mapping(soft_shadow)\main.cpp(309): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Debug\Shadow_mapping(soft_Shadow).exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Shadow_mapping(soft_Shadow)\\lib" opengl32.lib glew32.lib glfw3.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Debug\Shadow_mapping(soft_Shadow).pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Debug\Shadow_mapping(soft_Shadow).lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Shadow_mapping(soft_Shadow).vcxproj -> C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Debug\Shadow_mapping(soft_Shadow).exe
+     1>Done Building Project "C:\Users\Luna\Programming Projects\IGMTutorial\Staging\Shadow Mapping Soft\Shadow_mapping(soft_Shadow)\Shadow_mapping(soft_Shadow).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
